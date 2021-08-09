@@ -1,0 +1,107 @@
+.container2 {
+  display: -ms-grid;
+  display: grid;
+  height: auto;
+  -ms-grid-columns: auto auto auto 400px;
+      grid-template-columns: auto auto auto 400px;
+  color: white;
+}
+
+.section-f {
+  background-color: #292323;
+}
+
+.ar {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.inner-contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-b {
+  -ms-grid-column: 3;
+  grid-column: 3;
+}
+
+.item-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-e {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  padding: 5px;
+  margin: 10px;
+}
+
+.suscribete {
+  margin: 20px;
+  margin-top: 0;
+}
+
+.mybutton {
+  height: 45px;
+  width: 120px;
+  font-size: 1.1em;
+  background-color: #581035;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.mybutton:hover {
+  background-color: #740707;
+}
+
+.ar a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .md {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sm {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

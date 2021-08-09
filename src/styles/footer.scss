@@ -1,0 +1,122 @@
+@import "../variables/global.scss";
+.container2 {
+    display: grid;
+    height: auto;
+    //grid-template-columns: minmax(100px, 1fr) 3fr;
+    grid-template-columns: auto auto auto min(400px);
+    
+    color: white;
+  
+       
+  
+}
+
+.section-f{
+    background-color: $myblack;
+}
+
+.ar {
+    display: grid;
+    gap:10px;
+    grid-template-columns: 1fr;
+    
+}
+
+.inner-contacto {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.item-a{
+    display: flex;
+    
+}
+
+.item-b {
+    grid-column: 3 
+   
+}
+
+.item-c {
+    display: flex;
+   
+}
+
+.item-d {
+
+    
+} 
+
+.item-e {
+    display: flex;
+}
+
+.item-f {
+    
+} 
+ 
+.item-redes {
+    
+    display: flex;
+    
+   
+    
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    padding: 5px;
+    margin: 10px;
+    
+    
+}
+
+.suscribete {
+    margin: 20px;
+    margin-top: 0;
+}
+
+
+
+.mybutton {
+    height: 45px;
+    width: 120px;
+    font-size: 1.1em;
+    background-color: $theme-color;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.mybutton:hover {
+    background-color: rgb(116, 7, 7);
+}
+ 
+
+
+
+.ar a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    .md{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .sm{
+        grid-template-columns: 1fr;
+    }
+    
+ }

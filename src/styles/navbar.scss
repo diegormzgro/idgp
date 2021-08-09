@@ -1,0 +1,77 @@
+@import "../variables/global.scss";
+
+.navbar1 {
+    width: 100%;
+    height: 70px;
+    background-color: $myblack;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 100%;
+    height: 160px;
+    background-color: $theme-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    z-index: 2;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navbar1 .links {
+    margin-right: 25px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .links {
+        display: none;
+    }
+    .mobile-links {
+        display: flex;
+        position: absolute;
+        top: 190px;
+        flex-direction: column;
+        width: 100%;
+        height: 290px;
+        justify-content: center;
+        align-items: center;
+        background-color: $myblack;
+        z-index: 10;
+    }
+
+    .mobile-links a {
+        text-align: center;
+        
+    }
+
+    .menu-icon {
+        display: flex;
+        justify-content: flex-end;
+        margin: 40px;
+        color: white;
+        z-index: 20;
+    }
+
+    .logo img {
+        width: 200px;
+        height: 100px;
+    }
+}
