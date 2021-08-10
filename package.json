@@ -1,5 +1,6 @@
 {
-  "name": "idgptest2",
+  "name": "idgptest",
+  "homepage": "http://idgp.mx/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
