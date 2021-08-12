@@ -18,13 +18,14 @@ import './styles/main.css';
 
 
 function App() {
+  let url="/index.html"
   return (
 
     <Router>
       <div className="App">
 
         <Navbar />
-        
+
         <div className="content">
           <Switch>
             <Route exact path="/">
@@ -43,7 +44,7 @@ function App() {
               <Contacto/>
             </Route>
             <Route path='*'>
-              <Inicio/>
+              <a href={url}></a>
             </Route>
           </Switch>
         </div>
