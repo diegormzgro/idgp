@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.557f1786.chunk.css",
+    "main.js": "/static/js/main.51717946.chunk.js",
+    "main.js.map": "/static/js/main.51717946.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2ab38f92.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2ab38f92.js.map",
+    "static/css/2.4be38407.chunk.css": "/static/css/2.4be38407.chunk.css",
+    "static/js/2.a62b8db8.chunk.js": "/static/js/2.a62b8db8.chunk.js",
+    "static/js/2.a62b8db8.chunk.js.map": "/static/js/2.a62b8db8.chunk.js.map",
+    "static/js/3.186586c6.chunk.js": "/static/js/3.186586c6.chunk.js",
+    "static/js/3.186586c6.chunk.js.map": "/static/js/3.186586c6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.557f1786.chunk.css.map": "/static/css/main.557f1786.chunk.css.map",
+    "static/js/2.a62b8db8.chunk.js.LICENSE.txt": "/static/js/2.a62b8db8.chunk.js.LICENSE.txt",
+    "static/media/auditoria1.45aedf1f.jpg": "/static/media/auditoria1.45aedf1f.jpg",
+    "static/media/capacitacion1.6149311b.png": "/static/media/capacitacion1.6149311b.png",
+    "static/media/encuestas1.8665f5f0.jpg": "/static/media/encuestas1.8665f5f0.jpg",
+    "static/media/idgp-logo.33e1df7b.jpg": "/static/media/idgp-logo.33e1df7b.jpg",
+    "static/media/investigacion1.369f84cd.jpg": "/static/media/investigacion1.369f84cd.jpg",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/taller1.7d6a4a04.png": "/static/media/taller1.7d6a4a04.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ab38f92.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.a62b8db8.chunk.js",
+    "static/css/main.557f1786.chunk.css",
+    "static/js/main.51717946.chunk.js"
+  ]
+}
