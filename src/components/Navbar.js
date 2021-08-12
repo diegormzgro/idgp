@@ -25,8 +25,7 @@ function Navbar() {
                 <Link to="/">Inicio</Link>
                 <Link to="/mision" >Mision</Link>
                 <Link to="/servicios" >Servicios</Link>
-                <Link to="/will-not-match" >will not match</Link> 
-                <Link to="/also-will-not-match" >will not match</Link> 
+                <Link to="/#" >Publicaciones</Link> 
                 <Link to="/contacto" >Contacto</Link>
             </ul>
         </nav>

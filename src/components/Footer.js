@@ -32,7 +32,7 @@ function Footer() {
                     <Link to="/">Inicio</Link>
                     <Link to="/mision" >Mision</Link>
                     <Link to="/servicios" >Servicios</Link>
-                    <Link to="/publicaciones" >Publicaciones</Link>
+                    <Link to="/#" >Publicaciones</Link>
                     <Link to="/contacto" >Contacto</Link>
                
            </div> 
