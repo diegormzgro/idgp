@@ -16,9 +16,9 @@ function Carousel() {
 
                     <div className="container">
                     <div className="carousel-caption text-start">
-                        <h1>Example headline.</h1>
-                        <p>Some representative placeholder content for the first slide of the carousel.</p>
-                        <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        <h1>Curso de capacitación a funcionarios públicos</h1>
+                        <p className="mb-1">Incia el 23 de Octubre, certificado por la sep</p>
+                        <p><button className="btn btn-lg btn-primary" href="#">Inscríbete hoy</button></p>
                     </div>
                     </div>
                 </div>
@@ -27,9 +27,9 @@ function Carousel() {
 
                     <div className="container">
                     <div className="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        <h1>Conocee nuestros últimas encuestas</h1>
+                        <p className="mb-1">Sobre las elecciones en Morelos 2021</p>
+                        <p><a className="btn btn-lg btn-primary" href="#">Más información</a></p>
                     </div>
                     </div>
                 </div>
@@ -38,9 +38,9 @@ function Carousel() {
 
                     <div className="container">
                     <div className="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        <h1>Diplomado sobre gestion gubernamental</h1>
+                        <p>Incia el 16 de agosto, otorgamiento de certificado</p>
+                        <p><a className="btn btn-lg btn-primary" href="#">Inscripciones</a></p>
                     </div>
                     </div>
                 </div>
