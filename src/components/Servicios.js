@@ -4,6 +4,7 @@ import React from 'react'
 import capacitacion from '../assets/capacitacion1.png'
 import auditoria from '../assets/auditoria1.jpg'
 import encuestas from '../assets/encuestas1.jpg'
+import encuestas2 from '../assets/encuestas2.jpg'
 import investigacion from '../assets/investigacion1.jpg'
 import taller from '../assets/taller1.png'
 
@@ -90,8 +91,7 @@ function Servicios() {
                 </div>
                 <div className="col">
                 <div className="card h-100 shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+                        <img src={auditoria} class="card-img-top" alt="..."/> 
                     <div className="card-body">
                         <h3>Auditorias</h3>
                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -107,8 +107,7 @@ function Servicios() {
                 </div>
                 <div className="col">
                 <div className="card h-100 shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+                <img src={encuestas2} class="card-img-top" alt="..."/> 
                     <div className="card-body">
                         <h3>Asesorias y evaluaciones</h3>
                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

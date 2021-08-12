@@ -55,7 +55,7 @@ function Footer() {
                         <div className="me-3">
                         <GrMail/>
                         </div>
-                        <div>idgpnegocios@idgp.mx</div>
+                        <a>contacto@idgp.mx</a>
                         
                          
                         
