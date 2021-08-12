@@ -23,11 +23,10 @@ function Navbar() {
             
             <ul className={cliked ? "mobile-links": "links"} onClick={()=>{setcliked(false)}}>
                 <Link to="/">Inicio</Link>
-                <Link to="/mision" >¿Quiénes somos?</Link>
+                <Link to="/mision" >Mision</Link>
                 <Link to="/servicios" >Servicios</Link>
-                
-                <Link to="#"   >Publicaciones</Link>
-                <Link to="/contacto"  >Contacto</Link>
+                {/*<Link to="/publicaciones" >Publicaciones</Link>  */}
+                <Link to="/contacto" >Contacto</Link>
             </ul>
         </nav>
         </>
