@@ -10,7 +10,7 @@ function Footer() {
     const [screensize, setscreensize] = useState("lg")
     return (
 
-    <section className="bg-altdark">
+    <section className="btn-mydark">
         <footer className="container2 container md sm">
            
            <div className="item m-4 mt-3 mb-5">

@@ -1,6 +1,21 @@
 import React from 'react'
 import '../styles/carousel.css'
 
+import { Link } from 'react-router-dom'
+
+import salon from '../assets/integrantes/integrantes3.jpeg'
+import conferencia from '../assets/conferencia2.jpg'
+import liderazgo from '../assets/liderazgo3.jpg'
+import ap from '../assets/ap5.jpg'
+import apmobile from '../assets/ap5mobile.jpg'
+import acapulcomobile from '../assets/acapulcomobile.jpg'
+import large from '../assets/large.jpg'
+import auditoria from '../assets/auditoria1.jpg'
+import encuestas from '../assets/encuestas1.jpg'
+import encuestas2 from '../assets/encuestas2.jpg'
+import investigacion from '../assets/investigacion1.jpg'
+import taller from '../assets/taller1.png'
+
 function Carousel() {
     return (
     <div>
@@ -12,35 +27,49 @@ function Carousel() {
                 </div>
                 <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
+                  {/*  <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777"/>
+                    </svg>
+                    */} 
+                    <img src={ap} width="100%" height="100%" className=""/>
+                    
+                    
                     <div className="container">
                     <div className="carousel-caption text-start">
-                        <h1>Curso de capacitación a funcionarios públicos</h1>
-                        <p className="mb-1">Incia el 23 de Octubre, certificado por la sep</p>
-                        <p><button className="btn btn-lg btn-primary" href="#">Inscríbete hoy</button></p>
+                        <h1>Ciclo de cursos temáticos sobre la gestión pública municipal </h1>
+                        <p className="mb-1">Viernes 22 y sabado 23 de octubre. De 10 a 13 horas.</p>
+                        <p>
+                        <Link to="/cursos" >
+                        <button className="btn btn-lg btn-primary" >Más información</button>
+                        </Link> 
+                        </p>
                     </div>
                     </div>
                 </div>
-                <div className="carousel-item">
-                    <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                {
+                    /*
+                                <div className="carousel-item">
+                                <img src={ap} width="100%" height="100%" className=""/>
+                                <div className="container">
+                                <div className="carousel-caption">
+                                    <h1>Información al 5534314156 / 7351884915</h1>
+                                    <p className="mb-1">contacto@idgp.mx</p>
+                                    <p><a className="btn btn-lg btn-primary" href="#">Más información</a></p>
+                                </div>
+                                </div>
+                            </div>
 
-                    <div className="container">
-                    <div className="carousel-caption">
-                        <h1>Conocee nuestros últimas encuestas</h1>
-                        <p className="mb-1">Sobre las elecciones en Morelos 2021</p>
-                        <p><a className="btn btn-lg btn-primary" href="#">Más información</a></p>
-                    </div>
-                    </div>
-                </div>
+                    */
+                }
+                
                 <div className="carousel-item">
-                    <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                     <img src={conferencia} width="100%" height="100%" className=""/>
 
                     <div className="container">
                     <div className="carousel-caption text-end">
-                        <h1>Diplomado sobre gestion gubernamental</h1>
-                        <p>Incia el 16 de agosto, otorgamiento de certificado</p>
-                        <p><a className="btn btn-lg btn-primary" href="#">Inscripciones</a></p>
+                        <h1>Congreso internacional de gestion publica, marzo 2022 </h1>
+                        <p>Próximamente.</p>
+                        
                     </div>
                     </div>
                 </div>

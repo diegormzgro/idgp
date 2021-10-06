@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, useParams } from 'react-router-dom';
 import Inicio from './components/Inicio';
 import Mision from './components/Mision';
 import Servicios from './components/Servicios';
@@ -15,9 +15,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 //important! put main.css after bootstrap.min.css
 import './styles/main.css';
+import Topics from './components/Topics';
+import Curriculum from './components/Curriculum';
+import CesarArenas from './components/CesarArenas';
+import Eventos from './components/Eventos';
 
 
 function App() {
+  
   let url="/index.html"
   return (
 
@@ -43,6 +48,14 @@ function App() {
             <Route exact path="/contacto">
               <Contacto/>
             </Route>
+            <Route exact path="/cursos">
+              <Eventos/>
+            </Route>
+            <Route exact path={`/:id`}>
+              
+              <Topics  />
+            </Route>
+            
             <Route path='*'>
               <a href={url}></a>
             </Route>

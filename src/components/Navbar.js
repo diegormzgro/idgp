@@ -23,9 +23,10 @@ function Navbar() {
             
             <ul className={cliked ? "mobile-links": "links"} onClick={()=>{setcliked(false)}}>
                 <Link to="/">Inicio</Link>
-                <Link to="/mision" >Mision</Link>
+                <Link to="/mision" >Nosotros</Link>
+                <Link to="/cursos" >Cursos y Talleres</Link> 
                 <Link to="/servicios" >Servicios</Link>
-                <Link to="/#" >Publicaciones</Link> 
+                
                 <Link to="/contacto" >Contacto</Link>
             </ul>
         </nav>
@@ -38,7 +39,7 @@ function Navbar() {
 function Logo() {
     return(
         <div className="logo">
-            <img src={logo}  alt="Logo" width="300" height="150" />
+            <img src={logo}  alt="Logo" width="400" height="200" />
         </div>
     )
 }
