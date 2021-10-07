@@ -1,0 +1,24 @@
+.card {
+    &:hover {
+        transform: scale(1.05);
+      }
+    
+      
+}
+
+.card-body {
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+
+    &.btn-holder {
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    &.body {
+        display: flex;
+    }
+
+}

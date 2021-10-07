@@ -5,6 +5,14 @@ import { IconContext } from "react-icons";
 
 import { FaFacebook, FaPhoneAlt, FaWhatsapp, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
+import ReactWhatsapp from 'react-whatsapp';
+
+const Whats = () => (
+    
+  <ReactWhatsapp number="+52-1-551-303-4026" message="Hola!">
+      <FaWhatsapp/> 
+  </ReactWhatsapp>
+);
 
 function Footer() {
     const [screensize, setscreensize] = useState("lg")
@@ -46,7 +54,7 @@ function Footer() {
                         <FaPhoneAlt/>
                         </div>
                          
-                         735 188 49 15 
+                        55 1303 4026 
                          
                         
                     </div>
@@ -63,14 +71,18 @@ function Footer() {
                     
                     <div className="item-e mt-3">
                         <div className="me-3">
-                        <FaWhatsapp/> 
+                        
+                        <Whats />
                         </div>
-                        735 188 49 15
+                        55 1303 4026
                     </div>
                     
                     <div className="item-redes mt-3">
                         <div className="me-5">
-                        <FaFacebook/> 
+                        <Link to={{ pathname: "https://www.facebook.com/IDGP.AC" }} target="_blank">
+                                <FaFacebook/>
+                        </Link>
+                         
                         </div>
                         <div className="me-5">
                         <FaTwitter/>
