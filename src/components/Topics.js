@@ -96,14 +96,7 @@ function Topics(props) {
 
 
                          />
-                    <h4 className="text-center fw-bold">
-                            Sábado 13 de noviembre <br/>
-                            Horario: de 9 a 12 hrs y de 12 a 14 hrs <br/>
-                            Virtual presencial vía Zoom <br/>
-                            Ponente: C.P. Jorge Michel Luna <br/>
-                            CURSO IV <br/>
-                            “Finanzas públicas de los Municipios y de las Alcaldías”
-                    </h4>
+                    
                     {
                         conferencia4.map( value =>(<Table array={value} />))
                     }
@@ -118,7 +111,7 @@ function Topics(props) {
                             horario="de 9 a 12 hrs y de 12 a 14 hrs"
                             modalidad="Virtual presencial por vía Zoom"
                             curso="Curso V"
-                            ponente="Dr. Alfredo Javier Arias Casas"
+                            ponente="Dr. Alfredo Javier Arias Casas y Dr. Arturo Vázquez Espinosa "
                             link="alfredojavier"
                             tema="Responsablidades Administrativas de los Servicios Públicos"
 

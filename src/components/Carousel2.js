@@ -64,7 +64,7 @@ function Carousel2() {
                         <div className="container">
                                 <div className="carousel-caption text-start">
                                     <h1>Ciclo de cursos temáticos sobre la gestión pública municipal </h1>
-                                    <p className="mb-1">Viernes 22 y sabado 23 de octubre. De 10 a 13 horas.</p>
+                                    <p className="mb-1">Viernes y Sábados del 5 al 26 de noviembre de 9 a 14 horas</p>
                                     <p>
                                     <Link to="/cursos" >
                                     <button className="btn btn-lg btn-primary" >Más información</button>
