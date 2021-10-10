@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.5771ae7e.chunk.css",
-    "main.js": "/static/js/main.b099bc3a.chunk.js",
-    "main.js.map": "/static/js/main.b099bc3a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7680afab.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7680afab.js.map",
+    "main.js": "/static/js/main.ad29cbe1.chunk.js",
+    "main.js.map": "/static/js/main.ad29cbe1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5b761be8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5b761be8.js.map",
     "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
-    "static/js/2.e7179d73.chunk.js": "/static/js/2.e7179d73.chunk.js",
-    "static/js/2.e7179d73.chunk.js.map": "/static/js/2.e7179d73.chunk.js.map",
-    "static/js/3.1d78fb5a.chunk.js": "/static/js/3.1d78fb5a.chunk.js",
-    "static/js/3.1d78fb5a.chunk.js.map": "/static/js/3.1d78fb5a.chunk.js.map",
+    "static/js/2.4a4cb827.chunk.js": "/static/js/2.4a4cb827.chunk.js",
+    "static/js/2.4a4cb827.chunk.js.map": "/static/js/2.4a4cb827.chunk.js.map",
+    "static/js/3.22a2fe2e.chunk.js": "/static/js/3.22a2fe2e.chunk.js",
+    "static/js/3.22a2fe2e.chunk.js.map": "/static/js/3.22a2fe2e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.818011ed.chunk.css.map": "/static/css/2.818011ed.chunk.css.map",
     "static/css/main.5771ae7e.chunk.css.map": "/static/css/main.5771ae7e.chunk.css.map",
-    "static/js/2.e7179d73.chunk.js.LICENSE.txt": "/static/js/2.e7179d73.chunk.js.LICENSE.txt",
+    "static/js/2.4a4cb827.chunk.js.LICENSE.txt": "/static/js/2.4a4cb827.chunk.js.LICENSE.txt",
     "static/media/acapulcomobile.4f6480c9.jpg": "/static/media/acapulcomobile.4f6480c9.jpg",
     "static/media/alfredo.c582c038.jpeg": "/static/media/alfredo.c582c038.jpeg",
     "static/media/ap.703554f2.jpg": "/static/media/ap.703554f2.jpg",
@@ -37,13 +37,15 @@
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
     "static/media/oic.bc8be40a.jpg": "/static/media/oic.bc8be40a.jpg",
     "static/media/responsabilidades2.641259e0.png": "/static/media/responsabilidades2.641259e0.png",
+    "static/media/seguridad.62f73b71.jpg": "/static/media/seguridad.62f73b71.jpg",
+    "static/media/sustanciacion.a122d898.jpg": "/static/media/sustanciacion.a122d898.jpg",
     "static/media/taller1.7d6a4a04.png": "/static/media/taller1.7d6a4a04.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7680afab.js",
+    "static/js/runtime-main.5b761be8.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.e7179d73.chunk.js",
+    "static/js/2.4a4cb827.chunk.js",
     "static/css/main.5771ae7e.chunk.css",
-    "static/js/main.b099bc3a.chunk.js"
+    "static/js/main.ad29cbe1.chunk.js"
   ]
 }
