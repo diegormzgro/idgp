@@ -36,8 +36,8 @@ function Carousel() {
                     
                     <div className="container">
                     <div className="carousel-caption text-start">
-                        <h1>Ciclo de cursos temáticos sobre la gestión pública municipal </h1>
-                        <p className="mb-1">Viernes 22 y sabado 23 de octubre. De 10 a 13 horas.</p>
+                        <h2 className="display-1">Cicslo de cursos temáticos sobre la gestión pública municipal </h2>
+                        <h3 className="mb-1">24, 25 y 26 de octubre del 2024</h3>
                         <p>
                         <Link to="/cursos" >
                         <button className="btn btn-lg btn-primary" >Más información</button>
@@ -67,7 +67,7 @@ function Carousel() {
 
                     <div className="container">
                     <div className="carousel-caption text-end">
-                        <h1>Congreso internacional de gestion publica, marzo 2022 </h1>
+                        <h1 className="display-2">Congreso internacional de gestion publica </h1>
                         <p>Próximamente.</p>
                         
                     </div>

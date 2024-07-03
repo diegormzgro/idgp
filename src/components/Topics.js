@@ -7,6 +7,10 @@ import { conferencia1, conferencia2, conferencia3, conferencia4, conferencia5, c
 
 import gerardocasamata from '../assets/cv/gerardocasamatagomez.jpeg'
 import HeaderConf from './HeaderConf';
+import HeaderCourse2 from './HeaderCourse2';
+import TableWithOutTitle from './TableWithoutTitle';
+import { ponentesAPM } from './ponentesArreglo';
+
 
 function Topics(props) {
     
@@ -41,13 +45,12 @@ function Topics(props) {
         case '2': // foo is 0 so criteria met here so this block will run
             return (
                 <div className="container">
-                    <HeaderConf
-                            date="Sábado 6 de noviembre"
-                            horario="de 9 a 12 hrs y de 12 a 14 hrs"
-                            modalidad="Virtual presencial por vía Zoom"
+                    <HeaderCourse2
+                            date="24, 25, y 26 de octubre del 2024"
+                            horario="A confirmar"
+                            modalidad="Presencial"
                             curso="Curso II"
-                            ponente="Antonio Mejía Ceja y Enrique Pineda Figueroa"
-                            link="antoniomejia"
+                            
                             tema="Administración Pública Municipal"
 
 
@@ -56,8 +59,10 @@ function Topics(props) {
                     
                     
                     {
-                        conferencia2.map( value =>(<Table array={value} />))
+                        conferencia2.map( value =>(<TableWithOutTitle title={"Temario:"} array={value} />))
                     }
+
+                    { ponentesAPM.map( value =>(<TableWithOutTitle title={"Ponentes:"} array={value} />)) }
                     
                 </div>
             )

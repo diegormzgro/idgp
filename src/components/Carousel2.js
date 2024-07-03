@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom'
 
 import ap from '../assets/ap5.jpg'
 import apmobile from '../assets/ap5mobile.jpg'
+import presidencia from '../assets/presidencia2.jpg'
+import presidenciamobile from '../assets/presidencia1mobile.jpg'
 import acapulcomobile from '../assets/acapulcomobile.jpg'
 import conferencia from '../assets/conferencia2.jpg'
 
@@ -18,13 +20,13 @@ function Carousel2() {
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src={apmobile} class="d-block w-100" alt="..."/>
+                        <img src={presidenciamobile} class="d-block w-100" alt="..."/>
                             <div className="container">
                                 <div className="carousel-caption text-start">
-                                    <h1>Ciclo de cursos temáticos sobre la gestión pública municipal </h1>
-                                    <p className="mb-1">Viernes y Sábados del 5 al 26 de noviembre de 9 a 14 horas</p>
+                                    <h2 className="display-3 fw-bold">Ciclo de cursos temáticos sobre la gestión pública municipal </h2>
+                                    <h3 className="mb-1 display-5">24, 25 y 26 de octubre del 2024</h3>
                                     <p>
-                                    <Link to="/cursos" >
+                                    <Link to="/2" >
                                     <button className="btn btn-lg btn-primary" >Más información</button>
                                     </Link> 
                                     </p>
@@ -37,8 +39,8 @@ function Carousel2() {
                             </svg>
                         <div className="container">
                                 <div className="carousel-caption text-start">
-                                    <h1>Congreso internacional de gestion publica, marzo 2022, Acapulco Guerrero  </h1>
-                                    <p className="mb-1">Proximamente informes</p>
+                                    <h2 className="display-3">Congreso internacional de gestion publica </h2>
+                                    <h3 className="mb-1 display-6">Proximamente informes</h3>
                                     
                                 </div>
                             </div>
@@ -60,13 +62,13 @@ function Carousel2() {
                     
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src={ap} class="d-block w-100" alt="..."/>
+                        <img src={presidencia} class="d-block w-100" alt="..."/>
                         <div className="container">
                                 <div className="carousel-caption text-start">
-                                    <h1>Ciclo de cursos temáticos sobre la gestión pública municipal </h1>
-                                    <p className="mb-1">Viernes y Sábados del 5 al 26 de noviembre de 9 a 14 horas</p>
+                                <h2 className="display-1">Ciclo de cursos temáticos sobre la gestión pública municipal </h2>
+                                <h3 className="mb-1 display-3">24, 25 y 26 de octubre del 2024</h3>
                                     <p>
-                                    <Link to="/cursos" >
+                                    <Link to="/2" >
                                     <button className="btn btn-lg btn-primary" >Más información</button>
                                     </Link> 
                                     </p>

@@ -1,4 +1,4 @@
-const splitarray = (string) => {
+export const splitarray = (string) => {
     // let result = []
      let newarray = string.split("\n\n")
      let result = newarray.map( (element) => (element.split("\n")))
@@ -35,25 +35,15 @@ let conferencia1 = splitarray(
 )
 
 let conferencia2 = splitarray(
-   `I.- Antecedentes del Régimen Municipal en México
-   I.1.- Marco Teórico, Constitucional y Legal\n\nII.- La Gestión Pública Municipal
-   II.1.- La Gobernanza Municipal
-   II.2.- Diseño e implementación de políticas y programas públicos Municipales
-   II.3.- Ejes para la Elaboración del Plan de Gobierno Municipal
-   II.4.- Programación, presupuesto y rendición de cuentas
-   II.5.- Monitoreo, Evaluación y Auditoria de políticas y programas públicos Municipales\n\nIII. Diseño, organización y funcionamiento de la estructura administrativa municipal 
-   III.1.- Aspectos generales vinculados con el diseño administrativo.
-   III.2.- La Secretaría General
-   III.3.- La Tesorería
-   III.4.- La Contraloría
-   III.5.- Área de Normatividad Municipal (o Reglamentos)
-   III.6.- Otras áreas importantes.\n\nIV. Servicio públicos municipales y recursos humanos  
-   IV.1.- Obras, alumbrado y agua potable
-   IV.2.- Servicio de salud, justicia y seguridad
-   IV.3.- Recolección y destino final de la basura
-   IV.4.- Aprovechamiento de recursos humanos y formación de capacidades\n\nV. Organismos descentralizados, fideicomisos y autónomos
-   V.1.- Marco Teórico, Constitucional y Legal
-   V.2.- Objetivos y funciones\n\nVI. Caso relevante`
+  `I.- Entrega-Recepción Municipal
+   IÎ.- Habilidades directivas en la APM
+   III.- La Administración Pública Municipal
+   IV.- Finanzas Públicas de los Municipios
+   V.- SIIRE (Sistema de Integración Municipal SIIRE)
+   VI.- Planeación del desarrollo municipal
+   VII.- Procedimientos de investigación y sustancias ante el OIC municipal
+   VIII.- Enfoque de derechos y seguridad humana en la promoción municipal del desarrollo
+   IX.- Experiencia de gobiernos exitosos`
 
 )
 

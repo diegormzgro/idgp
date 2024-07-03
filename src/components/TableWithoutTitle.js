@@ -1,20 +1,21 @@
 import React from 'react'
 
-function Table(props) {
+function TableWithOutTitle(props) {
 
   
   
   
     return (
+
+        <div className='mt-5'>
+            <h4 className='fs-3'>
+            {props.title}
+        </h4>
         <table className="table table-striped">
-            <thead>
-                <tr>
-                    <th>{props.array[0]}</th>
-                </tr>
-            </thead>
+            
             <tbody>
                 {
-                    props.array.slice(1).map((value)=>(
+                    props.array.map((value)=>(
                         
                         <tr>
                             <td>{value}</td>
@@ -24,7 +25,12 @@ function Table(props) {
                 }
             </tbody>
         </table>
+
+        </div>
+        
+        
+        
     )
 }
 
-export default Table
+export default TableWithOutTitle

@@ -54,7 +54,7 @@ function Footer() {
                         <FaPhoneAlt/>
                         </div>
                          
-                        55 1303 4026 
+                        735 188 49 15 
                          
                         
                     </div>
@@ -63,7 +63,7 @@ function Footer() {
                         <div className="me-3">
                         <GrMail/>
                         </div>
-                        <a>contacto@idgp.mx</a>
+                        <a>idgp@gmail.com</a>
                         
                          
                         
