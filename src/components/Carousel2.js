@@ -44,13 +44,6 @@ function Carousel2() {
                 <h3 className="mb-1 display-5">
                   24, 25 y 26 de octubre del 2024
                 </h3>
-                <p>
-                  <Link to="/2">
-                    <button className="btn btn-lg btn-primary">
-                      Más información
-                    </button>
-                  </Link>
-                </p>
               </div>
             </div>
           </div>
